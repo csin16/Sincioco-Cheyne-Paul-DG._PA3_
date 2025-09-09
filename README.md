@@ -88,8 +88,8 @@ Model	gear	cyl
 28	Ford Pantera L	5	8
 ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-Lessons Learned:
+__Lessons Learned:__
 
 This programming assignment taught me to make use of Pandas in various ways. It taught me to load a file and also to save it. To use the locate function to search for something specific in the data frame. This assignment taught me different functions to utilize in different problems.
 
-Tech(s) Used: Jupyter Notebook
+__Tech(s) Used:__ Jupyter Notebook
