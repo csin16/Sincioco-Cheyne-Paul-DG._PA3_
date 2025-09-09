@@ -3,7 +3,7 @@ Cheyne Paul DG. Sincioco-2ECEA_PA-3
 PA#3 PYTHON DATA ANALYSIS (PANDAS)
 
 # About the Programming Assignment
-# This programming assignment aims to hone our skills in making data frames and series to help analyze large data sets. This task requires us to create variations to data frames and apply them to different problems.
+This programming assignment aims to hone our skills in making data frames and series to help analyze large data sets. This task requires us to create variations to data frames and apply them to different problems.
 __PROBLEM 1: Save your file as Surname_Pandas-P1.py. Using knowledge obtained from the experiment and demonstrations:__
 
 __a. Load the corresponding .csv file into a data frame named cars using pandas__
