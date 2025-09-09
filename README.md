@@ -26,8 +26,8 @@ __Description:__ This problem shows the use of loading a __.csv__ file in Python
 
 __Example:__
 
-Output:
 ```
+Output:
 'b.)'
 Model	mpg	cyl	disp	hp	drat	wt	qsec	vs	am	gear	carb
 0	Mazda RX4	21.0	6	160.0	110	3.90	2.620	16.46	0	1	4	4
