@@ -45,7 +45,7 @@ __a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7..
 __Code:__
 ```
 df = cars                                                              
-a = df.loc[0:4, ['Model','mpg', 'disp','drat','qsec','am','carb']]#Locates the elements from 0 to 4 and gets its model, mpg, disp, drat, am, and carb
+a = df.loc[0:4, ['Model','mpg', 'disp','drat','qsec','am','carb']]#Locates the elements from 0 to 4, gets the odd-numbered columns, and stores it to variable a
 display("a.)", a)                                                 #Displays variable a
 ```
 The code __df.loc[0:4, ['Model','mpg', 'disp','drat','qsec','am','carb']]__ was used to get the elements ranging from 0 to 4, and it specified which parameter to display such as model, mpg, disp, drat, qsec, am, and carb.
