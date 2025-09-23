@@ -5,7 +5,7 @@ _PA#3 PYTHON DATA ANALYSIS (PANDAS)_
 # __About the Programming Assignment__
 This programming assignment aims to hone our skills in making data frames and series to help analyze large data sets. This task requires us to create variations to data frames and apply them to different problems.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 __PROBLEM 1: Save your file as Surname_Pandas-P1.py. Using knowledge obtained from the experiment and demonstrations:__
 
 __a. Load the corresponding .csv file into a data frame named cars using pandas__
@@ -37,16 +37,16 @@ __Example Output:__
 
 <img width="561" height="361" alt="Image" src="https://github.com/user-attachments/assets/179ae44f-64e7-4a57-a36f-e20874fc7bb1" />
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 __PROBLEM 2: Save your file as Surname_Pandas-P2.py Using the dataframe cars in problem 1, extract the following information using subsetting, slicing and indexing operations.__
 
 __a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.__
 
 __Code:__
 ```
-df = cars
-a = df.loc[0:4, ['Model','mpg', 'disp','drat','qsec','am','carb']]
-display("a.)", a)
+df = cars                                                              
+a = df.loc[0:4, ['Model','mpg', 'disp','drat','qsec','am','carb']]#Locates the elements from 0 to 4 and gets its model, mpg, disp, drat, am, and carb
+display("a.)", a)                                                 #Displays variable a
 ```
 The code __df.loc[0:4, ['Model','mpg', 'disp','drat','qsec','am','carb']]__ was used to get the elements ranging from 0 to 4, and it specified which parameter to display such as model, mpg, disp, drat, qsec, am, and carb.
 
@@ -54,13 +54,13 @@ __Example Output:__
 
 <img width="384" height="196" alt="Image" src="https://github.com/user-attachments/assets/894375ae-6c7e-4b61-81eb-3f3561f38a03" />
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 __b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.__
 
 __Code:__
 ```
-b = df.loc[df['Model']=='Mazda RX4']
-display("b.)", b)
+b = df.loc[df['Model']=='Mazda RX4']          #Locates the model 'Mazda RX4' and stores it to variable b
+display("b.)", b)                             #Displays variable b
 ```
 The code __df.loc[df['Model']=='Mazda RX4']__ was used to locate the model 'Mazda RX4' using equalization symbol. Then, it was displayed.
 
@@ -73,8 +73,8 @@ __c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?__
 
 __Code:__
 ```
-c = df.loc[df['Model']=='Camaro Z28',['Model','cyl']]
-display("c.)", c,)
+c = df.loc[df['Model']=='Camaro Z28',['Model','cyl']]      #Locates the model 'Camaro Z28', gets its model and cyl, and stores it to variable c
+display("c.)", c,)                                         #Displays variable c
 ```
 The code __df.loc[df['Model']=='Camaro Z28',['Model','cyl']]__ was used to locate the model 'Camaro Z28', and display its Model and cyl.
 
@@ -87,9 +87,9 @@ __d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do
 
 __Code:__
 ```
-d = df.loc[[1,18,28], ['Model','gear', 'cyl']]
-display("d.)", d)
-df.to_csv('Sincioco_Pandas-P2.py')
+d = df.loc[[1,18,28], ['Model','gear', 'cyl']]  #Locates the elements 1, 18 and 28, gets its model, gear, and cyl, and stores it to variable d
+display("d.)", d)                               #Displays variable d
+df.to_csv('Sincioco_Pandas-P2.py')              #Saves the file as .py
 ```
 The code __df.loc[[1,18,28], ['Model','gear', 'cyl']]__ was used to get elements 1,18, and 28, which are Mazda RX4, Honda Civic, and Ford Pantera, and display their Model, gear, and cyl. Also, the file was saved using __.to_csv()__.
 
