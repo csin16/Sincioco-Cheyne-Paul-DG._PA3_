@@ -1,6 +1,6 @@
-Cheyne Paul DG. Sincioco-2ECEA_PA-3
+_Cheyne Paul DG. Sincioco-2ECEA_PA-3_
 
-PA#3 PYTHON DATA ANALYSIS (PANDAS)
+_PA#3 PYTHON DATA ANALYSIS (PANDAS)_
 
 # __About the Programming Assignment__
 This programming assignment aims to hone our skills in making data frames and series to help analyze large data sets. This task requires us to create variations to data frames and apply them to different problems.
